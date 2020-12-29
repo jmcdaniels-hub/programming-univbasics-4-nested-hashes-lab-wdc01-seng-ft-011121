@@ -82,7 +82,7 @@ def adding_matz
       }
     }
    programmer_hash[:yokihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
-   programmer_hash
+   return programmer_hash
 end
 
 def changing_alan
