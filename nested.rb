@@ -81,8 +81,8 @@ def adding_matz
         :languages => ["C"]
       }
     }
-   programmer_hash[:yokihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
-   puts programmer_hash
+   new_hash = programmer_hash[:yokihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
+   return new_hash.merge()
 end
 
 def changing_alan
